@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		312EE5F51D7FBD14005E4C19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE5F41D7FBD14005E4C19 /* main.m */; };
-		312EE5F81D7FBD14005E4C19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE5F71D7FBD14005E4C19 /* AppDelegate.m */; };
-		312EE5FB1D7FBD14005E4C19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE5FA1D7FBD14005E4C19 /* ViewController.m */; };
-		312EE5FE1D7FBD14005E4C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312EE5FC1D7FBD14005E4C19 /* Main.storyboard */; };
-		312EE6001D7FBD14005E4C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312EE5FF1D7FBD14005E4C19 /* Assets.xcassets */; };
-		312EE6031D7FBD14005E4C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312EE6011D7FBD14005E4C19 /* LaunchScreen.storyboard */; };
 		312EE60E1D7FBD14005E4C19 /* LXMySelfTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE60D1D7FBD14005E4C19 /* LXMySelfTests.m */; };
 		312EE6191D7FBD14005E4C19 /* LXMySelfUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE6181D7FBD14005E4C19 /* LXMySelfUITests.m */; };
+		312EE62E1D7FC25D005E4C19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE6281D7FC25D005E4C19 /* AppDelegate.m */; };
+		312EE62F1D7FC25D005E4C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312EE6291D7FC25D005E4C19 /* Assets.xcassets */; };
+		312EE6301D7FC25D005E4C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312EE62A1D7FC25D005E4C19 /* LaunchScreen.storyboard */; };
+		312EE6311D7FC25D005E4C19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 312EE62C1D7FC25D005E4C19 /* Info.plist */; };
+		312EE6321D7FC25D005E4C19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE62D1D7FC25D005E4C19 /* main.m */; };
 		3BC003D1F8A9752F4614916D /* libPods-LXMySelf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */; };
 /* End PBXBuildFile section */
 
@@ -37,21 +36,18 @@
 
 /* Begin PBXFileReference section */
 		312EE5F01D7FBD14005E4C19 /* LXMySelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXMySelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		312EE5F41D7FBD14005E4C19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		312EE5F61D7FBD14005E4C19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		312EE5F71D7FBD14005E4C19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		312EE5F91D7FBD14005E4C19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		312EE5FA1D7FBD14005E4C19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		312EE5FD1D7FBD14005E4C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		312EE5FF1D7FBD14005E4C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		312EE6021D7FBD14005E4C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		312EE6041D7FBD14005E4C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		312EE6091D7FBD14005E4C19 /* LXMySelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXMySelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		312EE60D1D7FBD14005E4C19 /* LXMySelfTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMySelfTests.m; sourceTree = "<group>"; };
 		312EE60F1D7FBD14005E4C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		312EE6141D7FBD14005E4C19 /* LXMySelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXMySelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		312EE6181D7FBD14005E4C19 /* LXMySelfUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMySelfUITests.m; sourceTree = "<group>"; };
 		312EE61A1D7FBD14005E4C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312EE6271D7FC25D005E4C19 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		312EE6281D7FC25D005E4C19 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		312EE6291D7FC25D005E4C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312EE62B1D7FC25D005E4C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		312EE62C1D7FC25D005E4C19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312EE62D1D7FC25D005E4C19 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXMySelf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E770F87E782F4A869E86F5AC /* Pods-LXMySelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.release.xcconfig"; sourceTree = "<group>"; };
 		F803E85E51FAF6549EDC8496 /* Pods-LXMySelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,25 +104,9 @@
 		312EE5F21D7FBD14005E4C19 /* LXMySelf */ = {
 			isa = PBXGroup;
 			children = (
-				312EE5F61D7FBD14005E4C19 /* AppDelegate.h */,
-				312EE5F71D7FBD14005E4C19 /* AppDelegate.m */,
-				312EE5F91D7FBD14005E4C19 /* ViewController.h */,
-				312EE5FA1D7FBD14005E4C19 /* ViewController.m */,
-				312EE5FC1D7FBD14005E4C19 /* Main.storyboard */,
-				312EE5FF1D7FBD14005E4C19 /* Assets.xcassets */,
-				312EE6011D7FBD14005E4C19 /* LaunchScreen.storyboard */,
-				312EE6041D7FBD14005E4C19 /* Info.plist */,
-				312EE5F31D7FBD14005E4C19 /* Supporting Files */,
+				312EE6261D7FC25D005E4C19 /* LXAppDelegate */,
 			);
 			path = LXMySelf;
-			sourceTree = "<group>";
-		};
-		312EE5F31D7FBD14005E4C19 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				312EE5F41D7FBD14005E4C19 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		312EE60C1D7FBD14005E4C19 /* LXMySelfTests */ = {
@@ -145,6 +125,19 @@
 				312EE61A1D7FBD14005E4C19 /* Info.plist */,
 			);
 			path = LXMySelfUITests;
+			sourceTree = "<group>";
+		};
+		312EE6261D7FC25D005E4C19 /* LXAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				312EE6271D7FC25D005E4C19 /* AppDelegate.h */,
+				312EE6281D7FC25D005E4C19 /* AppDelegate.m */,
+				312EE6291D7FC25D005E4C19 /* Assets.xcassets */,
+				312EE62A1D7FC25D005E4C19 /* LaunchScreen.storyboard */,
+				312EE62C1D7FC25D005E4C19 /* Info.plist */,
+				312EE62D1D7FC25D005E4C19 /* main.m */,
+			);
+			path = LXAppDelegate;
 			sourceTree = "<group>";
 		};
 		58D57DA2DC40F3CFA3D8A44B /* Pods */ = {
@@ -270,9 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312EE6031D7FBD14005E4C19 /* LaunchScreen.storyboard in Resources */,
-				312EE6001D7FBD14005E4C19 /* Assets.xcassets in Resources */,
-				312EE5FE1D7FBD14005E4C19 /* Main.storyboard in Resources */,
+				312EE62F1D7FC25D005E4C19 /* Assets.xcassets in Resources */,
+				312EE6301D7FC25D005E4C19 /* LaunchScreen.storyboard in Resources */,
+				312EE6311D7FC25D005E4C19 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				312EE5FB1D7FBD14005E4C19 /* ViewController.m in Sources */,
-				312EE5F81D7FBD14005E4C19 /* AppDelegate.m in Sources */,
-				312EE5F51D7FBD14005E4C19 /* main.m in Sources */,
+				312EE6321D7FC25D005E4C19 /* main.m in Sources */,
+				312EE62E1D7FC25D005E4C19 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,18 +375,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		312EE5FC1D7FBD14005E4C19 /* Main.storyboard */ = {
+		312EE62A1D7FC25D005E4C19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				312EE5FD1D7FBD14005E4C19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		312EE6011D7FBD14005E4C19 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				312EE6021D7FBD14005E4C19 /* Base */,
+				312EE62B1D7FC25D005E4C19 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -489,7 +473,7 @@
 			baseConfigurationReference = F803E85E51FAF6549EDC8496 /* Pods-LXMySelf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LXMySelf/Info.plist;
+				INFOPLIST_FILE = LXMySelf/LXAppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.qijia.LXMySelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,7 +485,7 @@
 			baseConfigurationReference = E770F87E782F4A869E86F5AC /* Pods-LXMySelf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LXMySelf/Info.plist;
+				INFOPLIST_FILE = LXMySelf/LXAppDelegate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.qijia.LXMySelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
