@@ -14,6 +14,7 @@
 		312EE6301D7FC25D005E4C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312EE62A1D7FC25D005E4C19 /* LaunchScreen.storyboard */; };
 		312EE6311D7FC25D005E4C19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 312EE62C1D7FC25D005E4C19 /* Info.plist */; };
 		312EE6321D7FC25D005E4C19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE62D1D7FC25D005E4C19 /* main.m */; };
+		315934F91D8144B90069C2C2 /* LXMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 315934EE1D8144B90069C2C2 /* LXMediator.m */; };
 		3BC003D1F8A9752F4614916D /* libPods-LXMySelf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		312EE62B1D7FC25D005E4C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		312EE62C1D7FC25D005E4C19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		312EE62D1D7FC25D005E4C19 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		315934ED1D8144B90069C2C2 /* LXMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMediator.h; sourceTree = "<group>"; };
+		315934EE1D8144B90069C2C2 /* LXMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMediator.m; sourceTree = "<group>"; };
 		5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXMySelf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E770F87E782F4A869E86F5AC /* Pods-LXMySelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.release.xcconfig"; sourceTree = "<group>"; };
 		F803E85E51FAF6549EDC8496 /* Pods-LXMySelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +107,13 @@
 		312EE5F21D7FBD14005E4C19 /* LXMySelf */ = {
 			isa = PBXGroup;
 			children = (
+				315934EA1D8144B90069C2C2 /* LXMainClass(主要类) */,
+				315934EB1D8144B90069C2C2 /* LXMediator(调度组件) */,
+				315934F41D8144B90069C2C2 /* LXPublicClass(公共类) */,
+				315934F71D8144B90069C2C2 /* LXTool(工具) */,
+				315934E91D8144B90069C2C2 /* LXLib(第三方库) */,
+				315934F61D8144B90069C2C2 /* LXResource(资源) */,
+				315934F31D8144B90069C2C2 /* LXOthe(其他文件) */,
 				312EE6261D7FC25D005E4C19 /* LXAppDelegate */,
 			);
 			path = LXMySelf;
@@ -138,6 +148,113 @@
 				312EE62D1D7FC25D005E4C19 /* main.m */,
 			);
 			path = LXAppDelegate;
+			sourceTree = "<group>";
+		};
+		315934E91D8144B90069C2C2 /* LXLib(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXLib(第三方库)";
+			sourceTree = "<group>";
+		};
+		315934EA1D8144B90069C2C2 /* LXMainClass(主要类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXMainClass(主要类)";
+			sourceTree = "<group>";
+		};
+		315934EB1D8144B90069C2C2 /* LXMediator(调度组件) */ = {
+			isa = PBXGroup;
+			children = (
+				315934EC1D8144B90069C2C2 /* LXMediator */,
+				315934EF1D8144B90069C2C2 /* LXMediator+LXAppDelegate */,
+				315934F01D8144B90069C2C2 /* LXMediator+LXMainClass */,
+				315934F11D8144B90069C2C2 /* LXMediator+LXPublicClass */,
+				315934F21D8144B90069C2C2 /* LXMediator+LXTool */,
+			);
+			path = "LXMediator(调度组件)";
+			sourceTree = "<group>";
+		};
+		315934EC1D8144B90069C2C2 /* LXMediator */ = {
+			isa = PBXGroup;
+			children = (
+				315934ED1D8144B90069C2C2 /* LXMediator.h */,
+				315934EE1D8144B90069C2C2 /* LXMediator.m */,
+			);
+			path = LXMediator;
+			sourceTree = "<group>";
+		};
+		315934EF1D8144B90069C2C2 /* LXMediator+LXAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXMediator+LXAppDelegate";
+			sourceTree = "<group>";
+		};
+		315934F01D8144B90069C2C2 /* LXMediator+LXMainClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXMediator+LXMainClass";
+			sourceTree = "<group>";
+		};
+		315934F11D8144B90069C2C2 /* LXMediator+LXPublicClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXMediator+LXPublicClass";
+			sourceTree = "<group>";
+		};
+		315934F21D8144B90069C2C2 /* LXMediator+LXTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXMediator+LXTool";
+			sourceTree = "<group>";
+		};
+		315934F31D8144B90069C2C2 /* LXOthe(其他文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXOthe(其他文件)";
+			sourceTree = "<group>";
+		};
+		315934F41D8144B90069C2C2 /* LXPublicClass(公共类) */ = {
+			isa = PBXGroup;
+			children = (
+				315934F51D8144B90069C2C2 /* PCPackage(封装) */,
+			);
+			path = "LXPublicClass(公共类)";
+			sourceTree = "<group>";
+		};
+		315934F51D8144B90069C2C2 /* PCPackage(封装) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "PCPackage(封装)";
+			sourceTree = "<group>";
+		};
+		315934F61D8144B90069C2C2 /* LXResource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXResource(资源)";
+			sourceTree = "<group>";
+		};
+		315934F71D8144B90069C2C2 /* LXTool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				315934F81D8144B90069C2C2 /* TLExpand(扩展) */,
+			);
+			path = "LXTool(工具)";
+			sourceTree = "<group>";
+		};
+		315934F81D8144B90069C2C2 /* TLExpand(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "TLExpand(扩展)";
 			sourceTree = "<group>";
 		};
 		58D57DA2DC40F3CFA3D8A44B /* Pods */ = {
@@ -338,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315934F91D8144B90069C2C2 /* LXMediator.m in Sources */,
 				312EE6321D7FC25D005E4C19 /* main.m in Sources */,
 				312EE62E1D7FC25D005E4C19 /* AppDelegate.m in Sources */,
 			);
@@ -474,6 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXMySelf/LXAppDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.qijia.LXMySelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +605,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LXMySelf/LXAppDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.qijia.LXMySelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
