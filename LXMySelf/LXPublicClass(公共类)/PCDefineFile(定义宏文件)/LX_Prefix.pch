@@ -1,0 +1,15 @@
+//
+//  LX_Prefix.pch
+//  LXMySelf
+//
+//  Created by qijia on 16/9/12.
+//  Copyright © 2016年 qijia. All rights reserved.
+//
+
+#ifndef LX_Prefix_pch
+#define LX_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* LX_Prefix_pch */

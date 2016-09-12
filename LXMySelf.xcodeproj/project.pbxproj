@@ -15,6 +15,12 @@
 		312EE6311D7FC25D005E4C19 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 312EE62C1D7FC25D005E4C19 /* Info.plist */; };
 		312EE6321D7FC25D005E4C19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EE62D1D7FC25D005E4C19 /* main.m */; };
 		315934F91D8144B90069C2C2 /* LXMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 315934EE1D8144B90069C2C2 /* LXMediator.m */; };
+		31984C911D864A1100F408D4 /* LXDataModelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C861D864A1100F408D4 /* LXDataModelHelper.m */; };
+		31984C921D864A1100F408D4 /* LXFileCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C881D864A1100F408D4 /* LXFileCacheManager.m */; };
+		31984C931D864A1100F408D4 /* LXNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C8A1D864A1100F408D4 /* LXNetworkCache.m */; };
+		31984C941D864A1100F408D4 /* LXNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C8C1D864A1100F408D4 /* LXNetworkHelper.m */; };
+		31984C951D864A1100F408D4 /* LXNetworkServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C8E1D864A1100F408D4 /* LXNetworkServiceHelper.m */; };
+		31984C961D864A1100F408D4 /* LXParameterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C901D864A1100F408D4 /* LXParameterHelper.m */; };
 		3BC003D1F8A9752F4614916D /* libPods-LXMySelf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +57,19 @@
 		312EE62D1D7FC25D005E4C19 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		315934ED1D8144B90069C2C2 /* LXMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXMediator.h; sourceTree = "<group>"; };
 		315934EE1D8144B90069C2C2 /* LXMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXMediator.m; sourceTree = "<group>"; };
+		31984C831D86440F00F408D4 /* LX_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LX_Prefix.pch; sourceTree = "<group>"; };
+		31984C851D864A1100F408D4 /* LXDataModelHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXDataModelHelper.h; sourceTree = "<group>"; };
+		31984C861D864A1100F408D4 /* LXDataModelHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXDataModelHelper.m; sourceTree = "<group>"; };
+		31984C871D864A1100F408D4 /* LXFileCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFileCacheManager.h; sourceTree = "<group>"; };
+		31984C881D864A1100F408D4 /* LXFileCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFileCacheManager.m; sourceTree = "<group>"; };
+		31984C891D864A1100F408D4 /* LXNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNetworkCache.h; sourceTree = "<group>"; };
+		31984C8A1D864A1100F408D4 /* LXNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNetworkCache.m; sourceTree = "<group>"; };
+		31984C8B1D864A1100F408D4 /* LXNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNetworkHelper.h; sourceTree = "<group>"; };
+		31984C8C1D864A1100F408D4 /* LXNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNetworkHelper.m; sourceTree = "<group>"; };
+		31984C8D1D864A1100F408D4 /* LXNetworkServiceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXNetworkServiceHelper.h; sourceTree = "<group>"; };
+		31984C8E1D864A1100F408D4 /* LXNetworkServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNetworkServiceHelper.m; sourceTree = "<group>"; };
+		31984C8F1D864A1100F408D4 /* LXParameterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXParameterHelper.h; sourceTree = "<group>"; };
+		31984C901D864A1100F408D4 /* LXParameterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXParameterHelper.m; sourceTree = "<group>"; };
 		5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXMySelf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E770F87E782F4A869E86F5AC /* Pods-LXMySelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.release.xcconfig"; sourceTree = "<group>"; };
 		F803E85E51FAF6549EDC8496 /* Pods-LXMySelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +179,8 @@
 		315934EA1D8144B90069C2C2 /* LXMainClass(主要类) */ = {
 			isa = PBXGroup;
 			children = (
+				31984C9C1D86547E00F408D4 /* LXClass(类) */,
+				31984C9D1D86547E00F408D4 /* LXTarget(调用) */,
 			);
 			path = "LXMainClass(主要类)";
 			sourceTree = "<group>";
@@ -223,6 +244,7 @@
 		315934F41D8144B90069C2C2 /* LXPublicClass(公共类) */ = {
 			isa = PBXGroup;
 			children = (
+				31984C821D8643D400F408D4 /* PCDefineFile(定义宏文件) */,
 				315934F51D8144B90069C2C2 /* PCPackage(封装) */,
 			);
 			path = "LXPublicClass(公共类)";
@@ -231,6 +253,7 @@
 		315934F51D8144B90069C2C2 /* PCPackage(封装) */ = {
 			isa = PBXGroup;
 			children = (
+				31984C841D864A1100F408D4 /* PCNetworking */,
 			);
 			path = "PCPackage(封装)";
 			sourceTree = "<group>";
@@ -255,6 +278,63 @@
 			children = (
 			);
 			path = "TLExpand(扩展)";
+			sourceTree = "<group>";
+		};
+		31984C821D8643D400F408D4 /* PCDefineFile(定义宏文件) */ = {
+			isa = PBXGroup;
+			children = (
+				31984C831D86440F00F408D4 /* LX_Prefix.pch */,
+			);
+			path = "PCDefineFile(定义宏文件)";
+			sourceTree = "<group>";
+		};
+		31984C841D864A1100F408D4 /* PCNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				31984C8B1D864A1100F408D4 /* LXNetworkHelper.h */,
+				31984C8C1D864A1100F408D4 /* LXNetworkHelper.m */,
+				31984C8D1D864A1100F408D4 /* LXNetworkServiceHelper.h */,
+				31984C8E1D864A1100F408D4 /* LXNetworkServiceHelper.m */,
+				31984C871D864A1100F408D4 /* LXFileCacheManager.h */,
+				31984C881D864A1100F408D4 /* LXFileCacheManager.m */,
+				31984C891D864A1100F408D4 /* LXNetworkCache.h */,
+				31984C8A1D864A1100F408D4 /* LXNetworkCache.m */,
+				31984C8F1D864A1100F408D4 /* LXParameterHelper.h */,
+				31984C901D864A1100F408D4 /* LXParameterHelper.m */,
+				31984C851D864A1100F408D4 /* LXDataModelHelper.h */,
+				31984C861D864A1100F408D4 /* LXDataModelHelper.m */,
+			);
+			path = PCNetworking;
+			sourceTree = "<group>";
+		};
+		31984C9C1D86547E00F408D4 /* LXClass(类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LXClass(类)";
+			sourceTree = "<group>";
+		};
+		31984C9D1D86547E00F408D4 /* LXTarget(调用) */ = {
+			isa = PBXGroup;
+			children = (
+				31984CA51D86555D00F408D4 /* LXTarget_Class */,
+				31984CA11D86553A00F408D4 /* LXTarget_Network */,
+			);
+			path = "LXTarget(调用)";
+			sourceTree = "<group>";
+		};
+		31984CA11D86553A00F408D4 /* LXTarget_Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LXTarget_Network;
+			sourceTree = "<group>";
+		};
+		31984CA51D86555D00F408D4 /* LXTarget_Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LXTarget_Class;
 			sourceTree = "<group>";
 		};
 		58D57DA2DC40F3CFA3D8A44B /* Pods */ = {
@@ -455,9 +535,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31984C941D864A1100F408D4 /* LXNetworkHelper.m in Sources */,
+				31984C921D864A1100F408D4 /* LXFileCacheManager.m in Sources */,
+				31984C951D864A1100F408D4 /* LXNetworkServiceHelper.m in Sources */,
 				315934F91D8144B90069C2C2 /* LXMediator.m in Sources */,
+				31984C911D864A1100F408D4 /* LXDataModelHelper.m in Sources */,
 				312EE6321D7FC25D005E4C19 /* main.m in Sources */,
 				312EE62E1D7FC25D005E4C19 /* AppDelegate.m in Sources */,
+				31984C931D864A1100F408D4 /* LXNetworkCache.m in Sources */,
+				31984C961D864A1100F408D4 /* LXParameterHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,10 +13,10 @@
 #pragma mark - public methods
 + (instancetype)sharedInstance
 {
-    static CTMediator *mediator;
+    static LXMediator *mediator;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        mediator = [[CTMediator alloc] init];
+        mediator = [[LXMediator alloc] init];
     });
     return mediator;
 }
@@ -30,8 +30,8 @@
 
 - (id)performActionWithUrl:(NSURL *)url completion:(void (^)(NSDictionary *))completion
 {
-#warning todo 修改aaa为你自己app的scheme
-    if (![url.scheme isEqualToString:@"aaa"]) {
+//#warning todo 修改aaa为你自己app的scheme
+    if (![url.scheme isEqualToString:@"LX"]) {
         // 这里就是针对远程app调用404的简单处理了，根据不同app的产品经理要求不同，你们可以在这里自己做需要的逻辑
         return @(NO);
     }
@@ -65,8 +65,8 @@
 - (id)performTarget:(NSString *)targetName action:(NSString *)actionName params:(NSDictionary *)params
 {
     
-    NSString *targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
-    NSString *actionString = [NSString stringWithFormat:@"Action_%@:", actionName];
+    NSString *targetClassString = [NSString stringWithFormat:@"LXTarget_%@", targetName];
+    NSString *actionString = [NSString stringWithFormat:@"LXAction_%@:", actionName];
     
     Class targetClass = NSClassFromString(targetClassString);
     id target = [[targetClass alloc] init];
