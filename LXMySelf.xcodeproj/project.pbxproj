@@ -21,6 +21,8 @@
 		31984C941D864A1100F408D4 /* LXNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C8C1D864A1100F408D4 /* LXNetworkHelper.m */; };
 		31984C951D864A1100F408D4 /* LXNetworkServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C8E1D864A1100F408D4 /* LXNetworkServiceHelper.m */; };
 		31984C961D864A1100F408D4 /* LXParameterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984C901D864A1100F408D4 /* LXParameterHelper.m */; };
+		31984CAE1D86880A00F408D4 /* LXMediator+LXNetwork_Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984CAD1D86880A00F408D4 /* LXMediator+LXNetwork_Home.m */; };
+		31984CB11D868C8B00F408D4 /* LXTarget_Network_Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 31984CB01D868C8B00F408D4 /* LXTarget_Network_Home.m */; };
 		3BC003D1F8A9752F4614916D /* libPods-LXMySelf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +72,10 @@
 		31984C8E1D864A1100F408D4 /* LXNetworkServiceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXNetworkServiceHelper.m; sourceTree = "<group>"; };
 		31984C8F1D864A1100F408D4 /* LXParameterHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXParameterHelper.h; sourceTree = "<group>"; };
 		31984C901D864A1100F408D4 /* LXParameterHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXParameterHelper.m; sourceTree = "<group>"; };
+		31984CAC1D86880A00F408D4 /* LXMediator+LXNetwork_Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LXMediator+LXNetwork_Home.h"; sourceTree = "<group>"; };
+		31984CAD1D86880A00F408D4 /* LXMediator+LXNetwork_Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LXMediator+LXNetwork_Home.m"; sourceTree = "<group>"; };
+		31984CAF1D868C8B00F408D4 /* LXTarget_Network_Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXTarget_Network_Home.h; sourceTree = "<group>"; };
+		31984CB01D868C8B00F408D4 /* LXTarget_Network_Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXTarget_Network_Home.m; sourceTree = "<group>"; };
 		5888F41FE69BBB6FEF27DAAF /* libPods-LXMySelf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LXMySelf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E770F87E782F4A869E86F5AC /* Pods-LXMySelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.release.xcconfig"; sourceTree = "<group>"; };
 		F803E85E51FAF6549EDC8496 /* Pods-LXMySelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXMySelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXMySelf/Pods-LXMySelf.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				315934EC1D8144B90069C2C2 /* LXMediator */,
-				315934EF1D8144B90069C2C2 /* LXMediator+LXAppDelegate */,
 				315934F01D8144B90069C2C2 /* LXMediator+LXMainClass */,
 				315934F11D8144B90069C2C2 /* LXMediator+LXPublicClass */,
 				315934F21D8144B90069C2C2 /* LXMediator+LXTool */,
@@ -206,16 +211,11 @@
 			path = LXMediator;
 			sourceTree = "<group>";
 		};
-		315934EF1D8144B90069C2C2 /* LXMediator+LXAppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "LXMediator+LXAppDelegate";
-			sourceTree = "<group>";
-		};
 		315934F01D8144B90069C2C2 /* LXMediator+LXMainClass */ = {
 			isa = PBXGroup;
 			children = (
+				31984CA61D86812900F408D4 /* LXMediator_Class */,
+				31984CA71D86812900F408D4 /* LXMediator_Network(网络) */,
 			);
 			path = "LXMediator+LXMainClass";
 			sourceTree = "<group>";
@@ -244,6 +244,7 @@
 		315934F41D8144B90069C2C2 /* LXPublicClass(公共类) */ = {
 			isa = PBXGroup;
 			children = (
+				31984CA81D86851B00F408D4 /* PCBaseUI(基础UI) */,
 				31984C821D8643D400F408D4 /* PCDefineFile(定义宏文件) */,
 				315934F51D8144B90069C2C2 /* PCPackage(封装) */,
 			);
@@ -318,15 +319,18 @@
 			isa = PBXGroup;
 			children = (
 				31984CA51D86555D00F408D4 /* LXTarget_Class */,
-				31984CA11D86553A00F408D4 /* LXTarget_Network */,
+				31984CA11D86553A00F408D4 /* LXTarget_Network(网络) */,
 			);
 			path = "LXTarget(调用)";
 			sourceTree = "<group>";
 		};
-		31984CA11D86553A00F408D4 /* LXTarget_Network */ = {
+		31984CA11D86553A00F408D4 /* LXTarget_Network(网络) */ = {
 			isa = PBXGroup;
 			children = (
+				31984CAF1D868C8B00F408D4 /* LXTarget_Network_Home.h */,
+				31984CB01D868C8B00F408D4 /* LXTarget_Network_Home.m */,
 			);
+			name = "LXTarget_Network(网络)";
 			path = LXTarget_Network;
 			sourceTree = "<group>";
 		};
@@ -335,6 +339,30 @@
 			children = (
 			);
 			path = LXTarget_Class;
+			sourceTree = "<group>";
+		};
+		31984CA61D86812900F408D4 /* LXMediator_Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LXMediator_Class;
+			sourceTree = "<group>";
+		};
+		31984CA71D86812900F408D4 /* LXMediator_Network(网络) */ = {
+			isa = PBXGroup;
+			children = (
+				31984CAC1D86880A00F408D4 /* LXMediator+LXNetwork_Home.h */,
+				31984CAD1D86880A00F408D4 /* LXMediator+LXNetwork_Home.m */,
+			);
+			name = "LXMediator_Network(网络)";
+			path = LXMediator_Network;
+			sourceTree = "<group>";
+		};
+		31984CA81D86851B00F408D4 /* PCBaseUI(基础UI) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "PCBaseUI(基础UI)";
 			sourceTree = "<group>";
 		};
 		58D57DA2DC40F3CFA3D8A44B /* Pods */ = {
@@ -538,7 +566,9 @@
 				31984C941D864A1100F408D4 /* LXNetworkHelper.m in Sources */,
 				31984C921D864A1100F408D4 /* LXFileCacheManager.m in Sources */,
 				31984C951D864A1100F408D4 /* LXNetworkServiceHelper.m in Sources */,
+				31984CB11D868C8B00F408D4 /* LXTarget_Network_Home.m in Sources */,
 				315934F91D8144B90069C2C2 /* LXMediator.m in Sources */,
+				31984CAE1D86880A00F408D4 /* LXMediator+LXNetwork_Home.m in Sources */,
 				31984C911D864A1100F408D4 /* LXDataModelHelper.m in Sources */,
 				312EE6321D7FC25D005E4C19 /* main.m in Sources */,
 				312EE62E1D7FC25D005E4C19 /* AppDelegate.m in Sources */,

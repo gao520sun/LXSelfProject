@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LXMediator+LXNetwork_Home.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[LXMediator sharedInstance]LXNetwork_home:@{} success:^(id responseObject) {
+        NSLog(@"response...%@",responseObject);
+    } failed:^(NSError *error) {
+        
+    }];
     return YES;
 }
 
